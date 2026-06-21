@@ -1,0 +1,29 @@
+[
+  {
+    "_id": "aqb8rs6pn",
+    "createdAt": "2026-06-20T09:22:59.015Z",
+    "updatedAt": "2026-06-20T09:22:59.016Z",
+    "username": "admin",
+    "email": "admin@tmds.org",
+    "password": "$2a$10$Z.qMFAEBnTXsL3awtTds6u77jwHmYL8YoeN1Df6mNyUAKd3Coj7Xu",
+    "role": "Admin"
+  },
+  {
+    "_id": "ut493l4is",
+    "createdAt": "2026-06-20T09:22:59.041Z",
+    "updatedAt": "2026-06-20T09:22:59.041Z",
+    "username": "dr_smith",
+    "email": "smith@tmds.org",
+    "password": "$2a$10$UzssU7ylz5hnMWTM4mdvwOWZxEqAO5gIu/XBurcofRUhk1jI3nk82",
+    "role": "Doctor"
+  },
+  {
+    "_id": "uydtl2ygd",
+    "createdAt": "2026-06-20T09:22:59.062Z",
+    "updatedAt": "2026-06-20T09:22:59.062Z",
+    "username": "receptionist_amy",
+    "email": "amy@tmds.org",
+    "password": "$2a$10$rNtQM81idFVUS5HaVtZxOuS/cEiAqesJctiDZsryxmDB7SG4hup6C",
+    "role": "Receptionist"
+  }
+]
