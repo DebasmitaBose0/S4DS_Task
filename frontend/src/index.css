@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-cyber-dark text-cyber-text antialiased;
+  }
+}
+
+/* Print Styles for PDF Export */
+@media print {
+  body {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    font-size: 11pt !important;
+  }
+  
+  /* Hide sidebar navigation and UI action elements */
+  aside, 
+  header, 
+  button, 
+  .no-print {
+    display: none !important;
+  }
+  
+  /* Expand main content */
+  main {
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    background-color: #ffffff !important;
+  }
+
+  /* Force print backgrounds on chart components */
+  .bg-cyber-card {
+    background-color: #f3f4f6 !important;
+    border-color: #d1d5db !important;
+    color: #111827 !important;
+    page-break-inside: avoid;
+  }
+
+  h1, h2, h3, h4, th, td, span, p {
+    color: #111827 !important;
+  }
+
+  table {
+    border-collapse: collapse !important;
+    width: 100% !important;
+  }
+
+  tr, td, th {
+    border-bottom: 1px solid #d1d5db !important;
+    color: #111827 !important;
+  }
+}
